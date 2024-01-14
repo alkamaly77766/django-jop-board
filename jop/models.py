@@ -14,7 +14,7 @@ def image_upload(instance , filename):
 
 
 class Jop(models.Model): # table
-    title = models.CharField(max_length=100) # colum
+    title = models.CharField(max_length=100) # column
 
     jop_type = models.CharField(max_length=15 , choices=JOB_TYPE)
     description = models.TextField(max_length=1000)
